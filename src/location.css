@@ -1,0 +1,79 @@
+.leaflet-container{
+    height: 576px;
+    width: 1024px
+}
+
+.locContainer {
+    display: grid;
+    grid-template-areas: 
+    'loc loc'
+    'button button'
+    'lat long'
+    'map map'
+    ;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #1e272e;
+}
+
+
+.loc{
+    grid-area: loc;
+}
+.fetchLoc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: button;
+    width: 15vw;
+    height: 100%;
+    align-self: center;
+    justify-self: center;
+    background-color: #1e272e;
+    color: #808e9b;
+    font-size: 20px;
+    border: 0.5px solid black;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.lat{
+    grid-area: lat;
+}
+.long{
+    grid-area: long;
+}
+.mapContainer{
+    grid-area: map;
+    border: 2px solid #1e272e;
+    margin-bottom: 40px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.fetchLoc span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.fetchLoc span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.fetchLoc:hover span {
+    padding-right: 25px;
+}
+  
+.fetchLoc:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.lat, .long{
+    font-size: 20px
+}

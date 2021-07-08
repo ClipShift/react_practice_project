@@ -1,0 +1,38 @@
+.fetchbtn{
+    display: none;
+}
+
+#container{
+    display: grid;
+    text-align: center;
+    grid-template-areas: 
+    'title title'
+    'current current'
+    'bio rec';
+    color: #1e272e
+}
+
+.bin{
+    grid-area: title;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+.current{
+    grid-area: current;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+.bio, .rec {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.bio{
+    grid-area: bio;
+}
+.rec{
+    grid-area: rec;
+}

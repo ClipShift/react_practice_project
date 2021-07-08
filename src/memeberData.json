@@ -1,0 +1,26 @@
+{
+    "srivatsan":{
+        "name": "Srivatsan K.",
+        "roll": "02215602817",
+        "work": "in culpa qui officia deserunt mollit anim id est laborum.",
+        "section": "F-3"
+    },
+    "aditya":{
+        "name": "Aditya M.",
+        "roll": "00715602817",
+        "work": " ia deserunt mollit anim id est laborum.",
+        "section": "F-3"
+    },
+    "saumya":{
+        "name": "Saumya Avik",
+        "roll": "04015602817",
+        "work": "pa qui officia deserunt mollit anim id est laborum.",
+        "section": "F-3"
+    },
+    "hitesh":{
+        "name": "Hitesh Kumar",
+        "roll": "02215602817",
+        "work": "pa qui officia deserunt mollit anim id est laborum.",
+        "section": "F-3"
+    }
+}

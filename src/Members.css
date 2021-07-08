@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.members{
+    display: grid;
+    grid-template-areas: 
+    'sri adi'
+    'sau hit';
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-pic, .name, .roll, .work {
+    width: 25vw;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 0px 10px;
+}
+
+.card{
+    transform: scale(0.9);
+    padding-left: 10px;
+    padding-right: -100px;
+    background-color: #8395a7;
+    margin: 10px 20px 10px 20px;
+    border: 1px solid black;
+    border-radius: 50px 0px;
+    box-shadow: 2px 2px 2px black;
+    display: grid;
+    width: fit-content;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas:
+    'pp name'
+    'pp roll'
+    'pp about';
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.profile-pic{
+    transform: scale(1.45);
+    position: relative;
+    right: 30px;
+    box-shadow: 4px 4px 5px black;
+    padding: 0px;
+    width: 175px;
+    grid-area: pp;
+    border-radius: 50%;
+    border: 2px solid #8395a7
+}
+
+
+.name {
+    margin-top: 10px;
+    grid-area: name;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 0px;
+    width: fit-content;
+}
+
+.roll{
+    grid-area: roll;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 400;
+    font-size: 30px;
+    opacity: 0.8;
+    width: fit-content;
+    box-shadow: none;
+}
+
+
+
+.work{
+    grid-area: about;
+    margin-top: 0px;
+    font-size: small;
+    text-align: justify;
+    box-shadow: none;
+    height: 100%
+}
