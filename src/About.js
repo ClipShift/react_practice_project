@@ -1,16 +1,15 @@
-import React from 'react';
-import './About.css'
+import React from "react";
+import "./About.css";
 
 function About() {
-    return (
-        <div className = 'acontainer'>
-        <div className = 'introSec'>
-            About: {text}
-        </div>
-        </div>
-    )
+  return (
+    <div className="acontainer">
+      <div className="introSec">About: {text}</div>
+    </div>
+  );
 }
 
-const text = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+const text =
+  "Waste management is a pervasive problem in today's world and is rising continuously with arise in urbanization. Waste management has a vibrant part to have an ecological environment. Proper waste disposal at the dumping sites has an essential part in sorting at the base level. Increases in time and more manpower is needed in order to sort waste using the traditional process. Sorting waste can be done in various methods and forms. Analyzing and classifying the garbage using image processing can be a very productive way to process waste materials. This paper aims to analyze existing research presented studies around the globe. This will enable to determine the problems, an algorithm used and method of those cited studies. It can also assess the correct algorithm to be used in a future study. These paper talk about the different methods and proposed systems in which waste segregation took place. These also talk about the drawbacks faced by the already existing systems and algorithms they used. With it, this paper gives a lot of opportunities to produce new knowledge in creating a new system.";
 
-export default About
+export default About;
